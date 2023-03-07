@@ -9,7 +9,7 @@ namespace Calculo_Pagamento
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CalculoSalario calculo = new CalculoSalario();
+            Funcionario calculo = new Funcionario();
 
             calculo.CPF = txtCpf.Text;
             calculo.Nome = txtNome.Text;
